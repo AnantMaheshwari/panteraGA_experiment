@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased]
+## [1.4.0]
 
 ### Added
 - Checks before aligning: every genome in the list must exist and appear only once. The run stops if FastGA produces no alignment for a pair.
