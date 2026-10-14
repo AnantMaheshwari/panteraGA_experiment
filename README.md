@@ -22,7 +22,8 @@ This installs panteraGA with all its dependencies (FastGA, alntools, BLAST, MAFF
 Every bioconda package is also available as a container from [BioContainers](https://biocontainers.pro). Find the current tag at [quay.io/repository/biocontainers/panteraga](https://quay.io/repository/biocontainers/panteraga?tab=tags), then:
 
 ```bash
-singularity pull panteraGA.sif docker://quay.io/biocontainers/panteraga:<tag>
+singularity pull panteraga.sif docker://quay.io/biocontainers/panteraga:1.4.0--hdfd78af_0
+singularity exec panteraga.sif panteraGA -V
 singularity exec panteraGA.sif panteraGA -g genomes.txt -b mylib -o out
 ```
 
